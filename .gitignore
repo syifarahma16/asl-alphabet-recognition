@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model files (simpan di Google Drive)
+models/*
+!models/.gitkeep
+
+# Dataset (ada di Google Drive)
+data/*
+!data/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints
+
+# Logs & training checkpoints
+logs/
+checkpoints/
+*.log
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
