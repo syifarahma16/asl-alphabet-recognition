@@ -21,24 +21,25 @@ Klasifikasi alfabet bahasa isyarat Amerika (ASL) menggunakan deep learning. Memb
 ---
 
 ## 🗂️ Struktur Project
-asl-alphabet-recognition/
-├── notebooks/
-│   └── asl_pipeline.ipynb      # Full pipeline CRISP-DM
-├── src/
-│   ├── data_loader.py
-│   ├── augmentation.py
-│   ├── model_cnn.py
-│   ├── model_mobilenet.py
-│   └── evaluate.py
-├── app/
-│   ├── app.py                  # Streamlit app
-│   └── utils.py
-├── config/
-│   └── config.yaml
-├── reports/figures/            # Plot EDA & evaluasi
-├── models/                     # ⚠️ gitignored — di Google Drive
-├── data/                       # ⚠️ gitignored — di Google Drive
-└── requirements.txt
+
+    asl-alphabet-recognition/
+    ├── notebooks/
+    │   └── asl_pipeline.ipynb      # Full pipeline CRISP-DM
+    ├── src/
+    │   ├── data_loader.py
+    │   ├── augmentation.py
+    │   ├── model_cnn.py
+    │   ├── model_mobilenet.py
+    │   └── evaluate.py
+    ├── app/
+    │   ├── app.py                  # Streamlit app
+    │   └── utils.py
+    ├── config/
+    │   └── config.yaml
+    ├── reports/figures/            # Plot EDA & evaluasi
+    ├── models/                     # gitignored — di Google Drive
+    ├── data/                       # gitignored — di Google Drive
+    └── requirements.txt
 
 ---
 
