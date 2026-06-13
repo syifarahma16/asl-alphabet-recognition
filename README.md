@@ -26,9 +26,7 @@ Klasifikasi alfabet bahasa isyarat Amerika (ASL) menggunakan deep learning. Memb
     ├── app/
     │   ├── app.py                  # Streamlit app
     │   └── utils.py                # Prediksi dan utilitas model
-    ├── config/
-    │   └── config.yaml             # Parameter dan jalur konfigurasi
-    ├── data/                       # Dataset (umumnya gitignored)
+    ├── data/                       # Dataset (gitignored) — download terpisah
     ├── models/
     │   ├── cnn_baseline.keras      # Pretrained model arsitektur CNN
     │   └── mobilenet_asl.keras     # MobileNetV2 transfer learning model
@@ -36,14 +34,17 @@ Klasifikasi alfabet bahasa isyarat Amerika (ASL) menggunakan deep learning. Memb
     │   └── asl_pipeline.ipynb      # Full pipeline CRISP-DM
     ├── reports/
     │   └── figures/                # Plot EDA & evaluasi
-    ├── src/
-    │   ├── augmentation.py         # Augmentasi data
-    │   ├── data_loader.py          # Loading dataset
-    │   ├── model_cnn.py            # Definisi model CNN
-    │   ├── model_mobilenet.py      # Definisi model MobileNetV2
-    │   └── evaluate.py             # Evaluasi performa model
     ├── requirements.txt
     └── README.md
+
+---
+## 📦 Dataset
+
+Models: [CNN dan MobileNetV2 Model](https://drive.google.com/drive/folders/1LgvaBMVBrraTw3kqNNrDX7wui2AMBIc-?usp=sharing)
+Dataset: [ASL Alphabet Dataset](https://drive.google.com/drive/folders/1qtRqctFgSu6S-ngJvEQrbUPoib2o_Ir8?usp=sharing)  
+- 29 kelas (A–Z, del, nothing, space)  
+- ~2.900 gambar (100 gambar/kelas)  
+- Ukuran gambar: 200×200px JPG
 
 ---
 
@@ -87,6 +88,12 @@ streamlit run app/app.py
 ## ⚠️ Limitasi
 
 Dataset menggunakan kondisi terkontrol (background polos, 200×200px). Model mungkin kurang akurat untuk foto real-world dengan background ramai atau pencahayaan berbeda.
+
+---
+
+##  Presentasi
+
+- 📊 [Slide Presentasi (Google Drive)](https://docs.google.com/presentation/d/1uefXj9hDAXnBRrsQn6KLaFOe87eQ1zDhBSdZ75S9zqI/edit?usp=sharing)
 
 ---
 
