@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image
-import keras
+import tensorflow as tf
 import os
 import gdown
 
@@ -28,7 +28,7 @@ def load_model():
     global _model
     if _model is None:
         download_model()
-        _model = keras.models.load_model(MODEL_PATH)
+        _model = tf.keras.models.load_model(MODEL_PATH)
         print("✅ Model loaded!")
     return _model
 
