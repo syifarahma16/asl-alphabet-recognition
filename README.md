@@ -91,9 +91,17 @@ Dataset menggunakan kondisi terkontrol (background polos, 200×200px). Model mun
 
 ---
 
-##  Presentasi
+## 🖥️ Presentasi
 
-- 📊 [Slide Presentasi (Google Drive)](https://docs.google.com/presentation/d/1uefXj9hDAXnBRrsQn6KLaFOe87eQ1zDhBSdZ75S9zqI/edit?usp=sharing)
+- [Slide Presentasi (Google Drive)](https://docs.google.com/presentation/d/1uefXj9hDAXnBRrsQn6KLaFOe87eQ1zDhBSdZ75S9zqI/edit?usp=sharing)
+
+---
+
+## 🌐 Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://asl-alphabet-recognition-intelligo.streamlit.app)
+
+Akses aplikasi langsung di: [asl-alphabet-recognition-intelligo.streamlit.app](https://asl-alphabet-recognition-intelligo.streamlit.app)
 
 ---
 
