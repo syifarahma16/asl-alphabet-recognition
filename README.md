@@ -40,8 +40,9 @@ Klasifikasi alfabet bahasa isyarat Amerika (ASL) menggunakan deep learning. Memb
 ---
 ## 📦 Dataset
 
-Models: [CNN dan MobileNetV2 Model](https://drive.google.com/drive/folders/1LgvaBMVBrraTw3kqNNrDX7wui2AMBIc-?usp=sharing)
-Dataset: [ASL Alphabet Dataset](https://drive.google.com/drive/folders/1qtRqctFgSu6S-ngJvEQrbUPoib2o_Ir8?usp=sharing)  
+- Models: [CNN dan MobileNetV2 Model](https://drive.google.com/drive/folders/1LgvaBMVBrraTw3kqNNrDX7wui2AMBIc-?usp=sharing)
+- Dataset: [ASL Alphabet Dataset](https://drive.google.com/drive/folders/1qtRqctFgSu6S-ngJvEQrbUPoib2o_Ir8?usp=sharing)  
+- Colab: [ASL pipeline Colab](https://colab.research.google.com/drive/19p4r-Prpm1EDnXi-foomFcS2uZPI12Ky?usp=sharing)
 - 29 kelas (A–Z, del, nothing, space)  
 - ~2.900 gambar (100 gambar/kelas)  
 - Ukuran gambar: 200×200px JPG
